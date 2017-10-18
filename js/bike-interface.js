@@ -11,10 +11,10 @@ $(document).ready(function() {
   $('#bikeSearchButton').click(function() {
     let search = $("#search").val();
     $('#search').val();
-    $('#patient').html("<h3>Please be Patient this may take a while...</h3>")
+    $('#patient').html("<h3>Please be patient, this may take a while...</h3>")
     $('#output').html('')
     setTimeout(function(){
-      alert("Please Continue to be Patient");
+      alert("Please continue to be patient");
     }, 5000);
     let bike = new Bike();
     bike.bikeBySearch(search);
