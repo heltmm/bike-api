@@ -11,11 +11,19 @@
   <body>
       <div class="jumbotron">
         <h1>Bike Finder</h1>
-        <h2>Find your bike by the ID number!</h2>
       </div>
+      <h2>Find your bike by entering the ID number!</h2>
+      <label for="bikeId">ID</label>
       <input type="text" id="bikeId">
-        <button type="button" class="btn" id="bikeButton">Find</button>
+      <button type="button" class="btn" id="bikeIdButton">Find</button><br>
+      <label for="search">Search Query</label>
+      <input type="text" id="search">
+        <button type="button" class="btn" id="bikeSearchButton">Find</button>
+      <div id='patient'>
+      </div>
       <div class="container" id="output">
+      </div>
+      <div id="error">
       </div>
   </body>
 </html>
